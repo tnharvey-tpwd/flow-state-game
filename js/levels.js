@@ -29,6 +29,7 @@ const pipeSVGs = {
 };
 
 const levels = [
+// Level 1
     {
     maxInventoryCapacity: 5,
     initialInventory: ['|', 'L'],
@@ -42,19 +43,23 @@ const levels = [
             "X X E X X"
     ]
     },
+// Level 2
     {
     maxInventoryCapacity: 5,
     initialInventory: ['|', 'L'],
     map: [
-            "X X S X X . . X",
-            "| 7 L 7 L . . X",
-            ". F X T | . . X",
-            "| J X - . . . X",
-            "- 7 X | . . . |",
-            "X . . . . . . X",
-            "X X E X . . . X"
+            "X S X X X X",
+            ". J - 7 | .",
+            ". x X . - .",
+            ". L | | . X",
+            "X - X L X .",
+            ". - . 7 7 .",
+            "- - X . | ."
+            ". F | | - ."
+            "X X X X E X"
             ]
         },
+// Level 3
         {
     maxInventoryCapacity: 5,
     initialInventory: ['|', 'L'],
@@ -68,6 +73,7 @@ const levels = [
             "X X E X . . . X"
     ]
     },
+// Level 4
     {
     maxInventoryCapacity: 5,
     initialInventory: ['|', 'L'],
