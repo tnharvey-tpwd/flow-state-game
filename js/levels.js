@@ -46,7 +46,7 @@ const levels = [
 // Level 2
     {
     maxInventoryCapacity: 5,
-    initialInventory: ['|', 'L'],
+    initialInventory: ['|', 'L', '|'],
     map: [
             "X S X X X X",
             ". J - 7 | .",
